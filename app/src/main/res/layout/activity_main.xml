@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background1">
+
+    <ImageButton
+        android:id="@+id/btnbukit"
+        android:layout_width="184dp"
+        android:layout_height="214dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="149dp"
+        android:layout_marginEnd="108dp"
+        android:onClick="bukit"
+        app:srcCompat="@drawable/bukiit" />
+
+    <ImageButton
+        android:id="@+id/btnpantai"
+        android:layout_width="182dp"
+        android:layout_height="214dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="44dp"
+        android:onClick="pantai"
+        app:srcCompat="@drawable/pantai" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="76dp"
+        android:background="@color/teal_700"
+        android:padding="10dp"
+        android:text="Wisata Kebumen"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

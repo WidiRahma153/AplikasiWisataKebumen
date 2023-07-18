@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="324dp"
+            android:background="#03A9F4"
+            android:gravity="center"
+            android:text="Bukit Banda"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="577dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="76dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:layout_height="206dp"
+                    android:src="@drawable/banda2" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="29dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="29dp"
+                    android:gravity="fill_horizontal"
+                    android:justificationMode="inter_word"
+                    android:text="@string/deskripsi_banda"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_marginStart="29dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="29dp"
+                    android:paddingTop="10dp"
+                    android:text="Harga Tiket: Rp 5.000 "
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="29dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="29dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/fbanda"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:id="@+id/maps"
+                    android:layout_width="match_parent"
+                    android:layout_height="299dp"
+                    android:layout_marginStart="29dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="29dp"
+                    android:layout_marginBottom="30dp"></FrameLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabBack"
+            android:layout_width="71dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="bottom|left"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="650dp"
+            android:onClick="fabback"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            app:borderWidth="0dp"
+            app:elevation="5dp" />
+
+    </RelativeLayout>
+</RelativeLayout>
