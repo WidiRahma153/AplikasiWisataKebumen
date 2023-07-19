@@ -32,7 +32,7 @@ public class langit extends AppCompatActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         float zoom = 16.0f;
-        LatLng lokasi = new LatLng(-7.602275499384921, 109.60138156398109);
+        LatLng lokasi = new LatLng(-7.6024483614694, 109.60117529380354);
         googleMap.addMarker(new MarkerOptions()
                 .position(lokasi)
                 .title("Bukit Langit"));
