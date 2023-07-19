@@ -1,5 +1,5 @@
 # AplikasiWisataKebumen
-Sebuah aplikasi Wisata sebagai penilaian tugas kelompok mata kuliah Mobile Programming. Wisata Kebumen adalah aplikasi informasi seputar wisata di Kabupaten Kebumen. Aplikasi ini membantu wisatawan menemukan daya tarik wisata di Kabupaten Kebumen.
+Sebuah aplikasi Wwsata sebagai penilaian tugas kelompok mata kuliah Mobile Programming. Wisata Kebumen adalah aplikasi informasi seputar wisata di Kabupaten Kebumen. Aplikasi ini membantu wisatawan menemukan daya tarik wisata di Kabupaten Kebumen.
 
 # Anggota Kelompok:
 1. Agil Puji Ariyanto (210202551)
