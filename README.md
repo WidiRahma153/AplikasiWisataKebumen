@@ -8,5 +8,5 @@ Sebuah aplikasi wisata sebagai penilaian tugas kelompok mata kuliah Mobile Progr
 4. Binti Murtaziqoh (210202594)
 5. Maeta Ayuning Tias (210202603)
 
-![Uploading 20230720_065558.jpg…]()
+![poster](https://github.com/WidiRahma153/AplikasiWisataKebumen/assets/139730004/dad558e9-70c1-4741-b47a-60bf5150288f)
 
