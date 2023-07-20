@@ -32,7 +32,7 @@ public class pecaron extends AppCompatActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         float zoom = 16.0f;
-        LatLng lokasi = new LatLng(-7.769225405352524, 109.42168609061311);
+        LatLng lokasi = new LatLng(-7.770496640297401, 109.42005392963145);
         googleMap.addMarker(new MarkerOptions()
                 .position(lokasi)
                 .title("Pantai Pecaron"));

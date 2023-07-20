@@ -34,7 +34,7 @@ public class menganti extends AppCompatActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         float zoom = 16.0f;
-        LatLng lokasi = new LatLng(-7.770028260226263, 109.41296760659462);
+        LatLng lokasi = new LatLng(-7.770170506795154, 109.41298327159905);
         googleMap.addMarker(new MarkerOptions()
                 .position(lokasi)
                 .title("Pantai Menganti"));

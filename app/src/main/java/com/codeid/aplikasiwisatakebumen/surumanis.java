@@ -32,7 +32,7 @@ public class surumanis extends AppCompatActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         float zoom = 16.0f;
-        LatLng lokasi = new LatLng(-7.771698979134646, 109.4322076711636);
+        LatLng lokasi = new LatLng(-7.771915907746351, 109.43221849448355);
         googleMap.addMarker(new MarkerOptions()
                 .position(lokasi)
                 .title("Pantai Surumanis"));

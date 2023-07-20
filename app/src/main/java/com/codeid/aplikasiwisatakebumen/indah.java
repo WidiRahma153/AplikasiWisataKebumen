@@ -32,7 +32,7 @@ public class indah extends AppCompatActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         float zoom = 16.0f;
-        LatLng lokasi = new LatLng(-7.535016001628241, 109.67998109760356);
+        LatLng lokasi = new LatLng(-7.535080120099132, 109.67997576496704);
         googleMap.addMarker(new MarkerOptions()
                 .position(lokasi)
                 .title("Bukit Pentulu Indah"));

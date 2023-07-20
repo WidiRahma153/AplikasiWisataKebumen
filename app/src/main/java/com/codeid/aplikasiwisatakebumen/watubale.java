@@ -32,7 +32,7 @@ public class watubale extends AppCompatActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         float zoom = 16.0f;
-        LatLng lokasi = new LatLng(-7.766086609615002, 109.44124214916887);
+        LatLng lokasi = new LatLng(-7.766206361813894, 109.44124669464132);
         googleMap.addMarker(new MarkerOptions()
                 .position(lokasi)
                 .title("Pantai Watu Bale"));

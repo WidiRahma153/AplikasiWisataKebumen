@@ -32,7 +32,7 @@ public class jerit extends AppCompatActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         float zoom = 16.0f;
-        LatLng lokasi = new LatLng(-7.766717321217711, 109.44501958789884);
+        LatLng lokasi = new LatLng(-7.766878111072587, 109.44502629128544);
         googleMap.addMarker(new MarkerOptions()
                 .position(lokasi)
                 .title("Bukit Jerit"));
